@@ -2,14 +2,14 @@ import java.util.Random;
 
 public class setScript {
     int ID; // * 스크립트 번호
-    int money, person, army, religion; // * : 순서대로 재정, 민심, 군사, 종교
-                                       // * : 변동값을 결정하는 변수
-                                       // * : (+)와 (-)부호로 증감 결정(작은변동 = 1~10, 큰 변동 11~20, 랜덤 이용)
-    String sentence; // * : 스크립트 내용, 문장단위
-    String yes, no; // * : 문장에 대한 대답, 2지선다로 "예, 아니요" 등의 내용
+    int money, person, army, religion; // * 순서대로 재정, 민심, 군사, 종교
+                                       // * 변동값을 결정하는 변수
+                                       // * (+)와 (-)부호로 증감 결정(작은변동 = 1~10, 큰 변동 11~20, 랜덤 이용)
+    String sentence; // * 스크립트 내용, 문장단위
+    String yes, no; // * 문장에 대한 대답, 2지선다로 "예, 아니요" 등의 내용
 
     public setScript(int ID, String getMoney, String getPerson, String getArmy, String getReligion,
-            String getSentence, String getYes, String getNo) {
+            String getSentence, String getYes, String getNo) { // ! 반드시 모든 항목을 받도록 지정
         Random getRandom = new Random();
 
         this.ID = ID;
