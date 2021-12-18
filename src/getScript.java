@@ -13,19 +13,19 @@ public class getScript extends Script {
     public int returnMoney(String money) {
         switch (money) {
             case "plusBig":
-                this.money = getRandom.nextInt(11);
-                break;
-
-            case "plusSmall":
                 this.money = getRandom.nextInt(11) + 10;
                 break;
 
+            case "plusSmall":
+                this.money = getRandom.nextInt(11);
+                break;
+
             case "minusBig":
-                this.money = -getRandom.nextInt(11);
+                this.money = -(getRandom.nextInt(11) + 10);
                 break;
 
             case "minusSmall":
-                this.money = -(getRandom.nextInt(11) + 10);
+                this.money = -getRandom.nextInt(11);
                 break;
 
             case "none":
@@ -41,19 +41,19 @@ public class getScript extends Script {
 
         {
             case "plusBig":
-                this.person = getRandom.nextInt(11);
-                break;
-
-            case "plusSmall":
                 this.person = getRandom.nextInt(11) + 10;
                 break;
 
+            case "plusSmall":
+                this.person = getRandom.nextInt(11);
+                break;
+
             case "minusBig":
-                this.person = -getRandom.nextInt(11);
+                this.person = -(getRandom.nextInt(11) + 10);
                 break;
 
             case "minusSmall":
-                this.person = -(getRandom.nextInt(11) + 10);
+                this.person = -getRandom.nextInt(11);
                 break;
 
             case "none":
@@ -68,19 +68,19 @@ public class getScript extends Script {
 
         {
             case "plusBig":
-                this.army = getRandom.nextInt(11);
-                break;
-
-            case "plusSmall":
                 this.army = getRandom.nextInt(11) + 10;
                 break;
 
+            case "plusSmall":
+                this.army = getRandom.nextInt(11);
+                break;
+
             case "minusBig":
-                this.army = -getRandom.nextInt(11);
+                this.army = -(getRandom.nextInt(11) + 10);
                 break;
 
             case "minusSmall":
-                this.army = -(getRandom.nextInt(11) + 10);
+                this.army = -getRandom.nextInt(11);
                 break;
 
             case "none":
@@ -93,19 +93,19 @@ public class getScript extends Script {
     public int returnReligion(String religion) {
         switch (religion) {
             case "plusBig":
-                this.religion = getRandom.nextInt(11);
-                break;
-
-            case "plusSmall":
                 this.religion = getRandom.nextInt(11) + 10;
                 break;
 
+            case "plusSmall":
+                this.religion = getRandom.nextInt(11);
+                break;
+
             case "minusBig":
-                this.religion = -getRandom.nextInt(11);
+                this.religion = -(getRandom.nextInt(11) + 10);
                 break;
 
             case "minusSmall":
-                this.religion = -(getRandom.nextInt(11) + 10);
+                this.religion = -getRandom.nextInt(11);
                 break;
 
             case "none":
