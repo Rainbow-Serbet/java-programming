@@ -220,6 +220,206 @@ public class Script {
         Sentence[25] = "이 나라의 병사들에겐 우수한 사령관이 필요합니다. 폐하는 저를 선택하셨습니다. 제발 제 조언에 귀를 기울여 주세요!";
         Answer1[25] = "알겠다.";
         Answer2[25] = "아니된다.";
+        
+        Money[26] = "minusSmall"; //부정: none
+        Person[26] = "none";
+        Army[26] = "none";
+        Religion[26] = "none"; //부정: plusSmall
+        Sentence[26] = "왕비께서 큰 병에 걸리셨습니다. 뛰어난 의사를 찾아야합니다.";
+        Answer1[26] = "얼른 찾거라.";
+        Answer2[26] = "기도하며 기다리면 나을 것이다.";
+        
+        Money[27] = "none";
+        Person[27] = "plusSmall"; //부정: none
+        Army[27] = "plusBig"; //부정: minusSmall
+        Religion[27] = "none";
+        Sentence[27] = "군사들의 기강이 헤이해지고 있습니다. 훈련 강도를 올려야합니다!";
+        Answer1[27] = "알겠다.";
+        Answer2[27] = "아니된다.";
+        
+        Money[28] = "none";
+        Person[28] = "plusSmall"; //부정: minusSmall
+        Army[28] = "plusSmall"; //부정: none
+        Religion[28] = "none";
+        Sentence[28] = "전설의 검을 손에 얻었습니다. 뛰어난 장군에게 하사하여 영웅으로 만드십시오!";
+        Answer1[28] = "알겠다.";
+        Answer2[28] = "아니된다.";
+        
+        Money[29] = "minusSmall"; //부정: none
+        Person[29] = "minusSmall"; //부정: none
+        Army[29] = "plusBig"; //부정: none
+        Religion[29] = "none";
+        Sentence[29] = "다른 나라에서 쳐들어온다는 소식이 들렸습니다. 대장간을 늘려 전쟁을 준비합시다!";
+        Answer1[29] = "알겠다.";
+        Answer2[29] = "아니된다.";
+        
+        Money[30] = "plusBig"; //부정: none
+        Person[30] = "plusSmall"; //부정: minusSmall
+        Army[30] = "none";
+        Religion[30] = "none";
+        Sentence[30] = "곧 겨울이 닥칩니다. 식량을 비축합시다!";
+        Answer1[30] = "알겠다.";
+        Answer2[30] = "아니된다.";
+        
+        Money[31] = "none";
+        Person[31] = "plusSmall"; //부정: minusSmall
+        Army[31] = "plusSmall"; //부정: minusSmall
+        Religion[31] = "none";
+        Sentence[31] = "군인들이 도박을 하다 적발되었습니다. 엄벌을 내려주세요!";
+        Answer1[31] = "알겠다.";
+        Answer2[31] = "아니된다.";
+        
+        Money[32] = "plusSmall"; //부정: none
+        Person[32] = "none";
+        Army[32] = "minusSmall"; //부정: plusSmall
+        Religion[32] = "none";
+        Sentence[32] = "병사들이 호랑이를 잡아 가죽을 가져왔습니다. 압수해서 팔아 돈을 법시다!";
+        Answer1[32] = "알겠다.";
+        Answer2[32] = "아니된다.";
+        
+        Money[33] = "plusSmall"; //부정: none
+        Person[33] = "plusSmall"; //부정: minusSmall
+        Army[33] = "minusSmall"; //부정: none
+        Religion[33] = "none";
+        Sentence[33] = "늑대무리를 발견했습니다. 안전을 위해 처치합시다!";
+        Answer1[33] = "알겠다.";
+        Answer2[33] = "아니된다.";
+        
+        Money[34] = "none";
+        Person[34] = "none";
+        Army[34] = "none";
+        Religion[34] = "plusSmall"; //부정: minusBig
+        Sentence[34] = "이교도가 나타나 혼란을 일으키고 있습니다! 전부 내쫒아버립시다!";
+        Answer1[34] = "알겠다.";
+        Answer2[34] = "아니된다.";
+        
+        Money[35] = "plusBig"; //부정: none
+        Person[35] = "none";
+        Army[35] = "minusSmall"; //부정: none
+        Religion[35] = "none";
+        Sentence[35] = "모험가가 새로운 섬을 발견했습니다! 얼른 군대를 투입해 우리땅으로 만듭시다!";
+        Answer1[35] = "알겠다.";
+        Answer2[35] = "아니된다.";
+        
+        Money[36] = "minusSmall"; //부정: none
+        Person[36] = "none";
+        Army[36] = "none";
+        Religion[36] = "plusSmall"; //부정: none
+        Sentence[36] = "음유시인이 나타나 백성들을 즐겁게 해주고 있습니다. 왕성과 중앙교회로도 불러들입시다!";
+        Answer1[36] = "알겠다.";
+        Answer2[36] = "아니된다.";
+        
+        Money[37] = "plusSmall"; //부정: none
+        Person[37] = "none";
+        Army[37] = "minusSmall"; //부정: none
+        Religion[37] = "none";
+        Sentence[37] = "나라가 평화로우니 군인의 수를 줄입시다.";
+        Answer1[37] = "알겠다.";
+        Answer2[37] = "아니된다.";
+        
+        Money[38] = "plusBig"; //부정: none
+        Person[38] = "none";
+        Army[38] = "none";
+        Religion[38] = "none";
+        Sentence[38] = "큰 상인이 와서 보물을 바칩니다. 받아들이겠습니까?";
+        Answer1[38] = "알겠다.";
+        Answer2[38] = "아니된다.";
+        
+        Money[39] = "none";
+        Person[39] = "plusSmall"; //부정: minusBig
+        Army[39] = "plusSmall"; //부정: none
+        Religion[39] = "plusSmall"; //부정: none
+        Sentence[39] = "지나가던 여행자가 왕자님을 모욕했습니다. 처벌하시겠습니까?";
+        Answer1[39] = "처벌하라.";
+        Answer2[39] = "보내주거라.";
+        
+        Money[40] = "none";
+        Person[40] = "plusBig"; //부정: minusBig
+        Army[40] = "minusSmall"; //부정: none
+        Religion[40] = "minusSmall"; //부정: plusSmall
+        Sentence[40] = "수도에서 마녀사냥이 이루어지고 있습니다! 조치를 취해주십시오!";
+        Answer1[40] = "멈추게 하거라.";
+        Answer2[40] = "내버려 두거라.";
+        
+        Money[41] = "minusSmall"; //부정: plusSmall
+        Person[41] = "none";
+        Army[41] = "none";
+        Religion[41] = "none";
+        Sentence[41] = "윌리엄 공을 영주로 임명해, 그 땅을 고치게 하는 건 어떻습니까? 물론 그만한 대가도 지불하게 하죠";
+        Answer1[41] = "알겠다.";
+        Answer2[41] = "아니된다.";
+        
+        Money[42] = "plusSmall"; //부정: minusSmall
+        Person[42] = "none";
+        Army[42] = "none";
+        Religion[42] = "none";
+        Sentence[42] = "우리 상인 길드가 상거래를 통제한 덕에, 우리 나라 경제가 성장했습니다. 중앙 은행을 설립합시다";
+        Answer1[42] = "알겠다.";
+        Answer2[42] = "아니된다.";
+        
+        Money[43] = "plusSmall"; //부정: minusSmall
+        Person[43] = "plusSmall"; //부정: minusSmall
+        Army[43] = "plusSmall"; //부정: minusSmall
+        Religion[43] = "plusSmall"; //부정: minusSmall
+        Sentence[43] = "이 나라는 대단히 궁핍하고 빈약합니다. 저의 친절한 친구가 원조를 제공하겠다합니다. 대가는 일절 요구하지 않고요.";
+        Answer1[43] = "알겠다.";
+        Answer2[43] = "아니된다.";
+        
+        Money[44] = "plusSmall"; //부정: minusSmall
+        Person[44] = "plusSmall"; //부정: minusSmall
+        Army[44] = "none";
+        Religion[44] = "none";
+        Sentence[44] = "왕도에서 폭발이 일어났습니다! 자세한 것은 모르겠습니다만, 신중을 가해 거리의 문을 폐쇄할까요?";
+        Answer1[44] = "알겠다.";
+        Answer2[44] = "아니된다.";
+        
+        Money[45] = "none";
+        Person[45] = "none";
+        Army[45] = "minusSmall"; //부정: plusSmall
+        Religion[45] = "none";
+        Sentence[45] = "적군이 투석기로 성벽을 공격해 옵니다!";
+        Answer1[45] = "공격하라.";
+        Answer2[45] = "방어를 굳혀라.";
+        
+        Money[46] = "none";
+        Person[46] = "none";
+        Army[46] = "plusSmall"; //부정: minusSmall
+        Religion[46] = "none";
+        Sentence[46] = "새로운 장군을 임명하지 않으면, 지금 쳐들어오는 적군을 억제할 수 없을 것입니다.";
+        Answer1[46] = "알겠다.";
+        Answer2[46] = "아니된다.";
+        
+        Money[47] = "none";
+        Person[47] = "plusSmall"; //부정: minusSmall
+        Army[47] = "minusSmall"; //부정: plusSmall
+        Religion[47] = "none";
+        Sentence[47] = "폐하, 비상사태 선언을 하셔야합니다, 테러 공격에 대처하려면 이제 이것밖에 없습니다!";
+        Answer1[47] = "알겠다.";
+        Answer2[47] = "아니된다.";
+        
+        Money[48] = "none";
+        Person[48] = "plusSmall"; //부정: minusSmall
+        Army[48] = "none";
+        Religion[48] = "none";
+        Sentence[48] = "아이들이 늑대에게 습격을 당했습니다. 우리들(백성) 만으로 퇴치해도 괜찮을까요?";
+        Answer1[48] = "내가 퇴치해주지.";
+        Answer2[48] = "또 농담하는군.";
+        
+        Money[49] = "none";
+        Person[49] = "none";
+        Army[49] = "plusSmall"; //부정: minusSmall
+        Religion[49] = "none";
+        Sentence[49] = "동부의 야만인들이 국경에 다가오고 있습니다! 방어를 다져야 합니다!";
+        Answer1[49] = "알겠다.";
+        Answer2[49] = "아니된다.";
+        
+        Money[50] = "none";
+        Person[50] = "plusSmall"; //부정: minusSmall
+        Army[50] = "none";
+        Religion[50] = "none";
+        Sentence[50] = "광산의 광부들이 임금 인상을 요구하며, 일하려 들지 않습니다.";
+        Answer1[50] = "인상하겠노라.";
+        Answer2[50] = "그렇게는 못하겠노라.";
     }
 
     // * get메서드
