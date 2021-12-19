@@ -1,13 +1,13 @@
 
 public class Script {
     // * 재정, 민심, 군사, 종교, 스크립트 문장, 대답1, 대답2 순
-    private String[] Money = new String[26];
-    private String[] Person = new String[26];
-    private String[] Army = new String[26];
-    private String[] Religion = new String[26];
-    private String[] Sentence = new String[26];
-    private String[] Answer1 = new String[26];
-    private String[] Answer2 = new String[26];
+    private String[] Money = new String[51];
+    private String[] Person = new String[51];
+    private String[] Army = new String[51];
+    private String[] Religion = new String[51];
+    private String[] Sentence = new String[51];
+    private String[] Answer1 = new String[51];
+    private String[] Answer2 = new String[51];
 
     // * set메서드
     // * 배열형태로 저장, 호출시 int ID 이용

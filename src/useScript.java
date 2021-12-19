@@ -90,7 +90,7 @@ public class useScript {
 
         while (true) {
             Random random = new Random();
-            int randID = random.nextInt(25) + 1;
+            int randID = random.nextInt(50) + 1;
 
             if (select == 3) {
                 System.out.println("프로그램을 종료합니다.");
